@@ -34,24 +34,39 @@ Setup Instructions:
 
 3. Create a configuration file named piaplus_config.ini in the same directory with the following sections and keys:
 
+
   [PIA]
+  
   DIP = true
+  
   DIP_TOKEN = your_dip_token
+  
   PIA_USERNAME = your_username
+  
   PIA_PASSWORD = your_password
+  
   PIA_REGION = region_id
   
   [General]
+  
   TRANSMISSION_ENABLED = true
+  
   AUTODISCONNECT = true
   
   [Network]
+  
   MAX_SERVERS_FAILED_ATTEMPTS = 3
+  
   SERVERS_REQUESTS_COUNT = 5
+  
   RPC_CERT_FILE = ca.rsa.4096.crt
   
   [Logging]
+  
   DEFAULT_LOG_LEVEL = INFO
+
+
+  
 
 4. Install the required Python dependencies:
   pip install requests urllib3
